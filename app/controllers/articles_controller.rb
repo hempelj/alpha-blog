@@ -23,6 +23,12 @@ end
 def article_params  
     params.require(:article).permit(:title, :description)  
   end
+def destroy  
+  @article = Article.find(params[:id])  
+  flash[:notice] = "Article was successfully deleted" 
+  @article.destroy  
+  redirect_to articles_path
+end
 def update  
   @article = Article.find(params[:id])  
   if @article.update(article_params) 
