@@ -1,2 +1,116 @@
+ $navbar-default-bg: black;
+
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+ #logo {
+   float: left;  
+   font-size: 1.7em;  
+   color: #fff;  
+   text-transform:  uppercase;  
+   letter-spacing: -1px;  
+   font-weight: bold;
+ }
+ 
+ #logo:hover {
+   color: #fff;  
+   text-decoration: none;
+ }
+ 
+ .center {
+   text-align: center;
+ }
+ 
+ .jumbotron {
+   height: 782px;
+   width: 1280px;
+   background-image: asset-url('car.jpg');  
+   background-size: contain; 
+   background-repeat: no-repeat;
+ }
+ 
+ .jumbotron h1 {
+  color: #f0f5f5;
+  font-size: 8em;
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: -1px;
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+ }
+ 
+ .btn-xlrg {
+   font-size: 4em;
+   color: #f0f5f5;
+   font-weight: bold;
+   background-color: green;
+   border-color: black;
+   text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+ }
+ 
+ .btn-xlrg:visited {
+  font-size: 4em;
+  color: #f0f5f5;
+  font-weight: bold;
+  background-color: green;
+  border-color: black;
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+ }
+ 
+ .btn-xlrg:hover {
+   background-color: black;
+   color: white;
+   border-color: gray;
+ }
+ 
+ footer {
+   margin-top: 45px;  
+   padding-top: 5px;  
+   border-top: 1px solid #eaeaea; 
+   color: #777;
+ }
+ 
+ footer a:hover {
+   color: #222;
+ }  
+ 
+ footer small {
+   float: left;
+ }  
+ 
+ footer ul {
+   float: right;  
+   list-style: none;
+ }
+ 
+ footer ul li {
+   float: left;  
+   margin-left: 15px;
+ }
+ 
+ .article-actions {
+   border-top: 1px solid #eaeaea;
+   padding-top: 5px;
+ }
+ 
+.article-title {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.article-body {
+  border-top: 1px solid #eaeaea;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
