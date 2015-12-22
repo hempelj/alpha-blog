@@ -59,7 +59,7 @@
   font-size: 4em;
   color: #f0f5f5;
   font-weight: bold;
-  background-color: green;
+  background-color: #668cff;
   border-color: black;
   text-shadow:
     -1px -1px 0 #000,
@@ -75,6 +75,12 @@
  }
  
   .btn-xlrg:active {
+   background-color: black;
+   color: white;
+   border-color: gray;
+ }
+ 
+  .btn-xlrg:target {
    background-color: black;
    color: white;
    border-color: gray;
